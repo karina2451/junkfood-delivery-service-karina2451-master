@@ -6,8 +6,6 @@
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.lecture.Delivery;
-import org.lecture.DeliveryDestination;
 import org.lecture.Order;
 import org.lecture.junkfood.burger.Baconburger;
 import org.lecture.junkfood.burger.Cheeseburger;
