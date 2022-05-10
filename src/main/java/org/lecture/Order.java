@@ -130,7 +130,7 @@ public class Order {
      * calculates total production time of all ordered junkfood items
      * @return production time in milliseconds
      */
-    long getProductionTime() {
+    public long getProductionTime() {
         LocalDateTime start = LocalDateTime.now();
 
         List productionTimesOfItems = new ArrayList();
@@ -170,7 +170,7 @@ public class Order {
      * calculates total delivery time (production time, delivery time and 2 seconds after placing the order)
      * @return total delivery time in milliseconds
      */
-    long getTotalDeliveryTime() {
+    public long getTotalDeliveryTime() {
         Delivery d = new Delivery();
         return totalDeliveryTime = (long) (getProductionTime() + d.getDeliveryTime(getDestination()) + 2000);
     }

@@ -1,3 +1,9 @@
+/**
+ * @author Karina Medwenitsch
+ * @since May 2022
+ * This class is to test the methods in de Delivery class.
+ */
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.lecture.Delivery;
@@ -52,5 +58,7 @@ public class TestDelivery {
         double deliveryTime = d.getDeliveryTime(destination);
         Assertions.assertEquals(1000.0, deliveryTime);
     }
+
+
 
 }
